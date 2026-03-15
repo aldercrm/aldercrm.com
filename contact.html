@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Register Interest — Alder CRM</title>
+<meta name="description" content="Register your interest in Alder CRM or book an introductory call. We're onboarding founding partners now.">
+<link rel="canonical" href="https://aldercrm.com/contact.html">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon.png" type="image/png" sizes="32x32">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://aldercrm.com/contact.html">
+<meta property="og:title" content="Register Interest — Alder CRM">
+<meta property="og:description" content="Register your interest in Alder CRM or book an introductory call. We're onboarding founding partners now.">
+<meta property="og:image" content="https://aldercrm.com/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_GB">
+<meta property="og:site_name" content="Alder CRM">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Register Interest — Alder CRM">
+<meta name="twitter:description" content="Register your interest in Alder CRM or book an introductory call. We're onboarding founding partners now.">
+<meta name="twitter:image" content="https://aldercrm.com/og-image.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #212529; background: #F8F9FA; line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: inherit; text-decoration: none; }
+
+:root {
+  --primary: #1B4332; --primary-light: #2D6A4F;
+  --secondary: #8B5E3C; --accent: #52B788; --accent-light: #74C69D;
+  --bg: #F8F9FA; --bg-warm: #F5F1EB;
+  --text: #212529; --text-muted: #6C757D; --white: #FFFFFF;
+  --border: #DEE2E6;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.08);
+  --shadow-md: 0 4px 16px rgba(0,0,0,0.1);
+  --radius: 12px; --radius-lg: 20px;
+}
+
+h1, h2, h3 { font-family: 'Fraunces', Georgia, serif; font-weight: 400; line-height: 1.2; }
+h1 { font-size: clamp(2rem, 4vw, 3rem); }
+h2 { font-size: clamp(1.5rem, 3vw, 2rem); }
+h3 { font-size: clamp(1.15rem, 2vw, 1.35rem); }
+
+.container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+
+.btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 14px 32px; border-radius: 10px;
+  font-family: 'DM Sans', sans-serif; font-size: 16px; font-weight: 600;
+  cursor: pointer; border: none; transition: all 0.2s ease;
+}
+.btn-primary { background: var(--accent); color: var(--primary); }
+.btn-primary:hover { background: var(--accent-light); transform: translateY(-1px); box-shadow: var(--shadow-md); }
+.btn-dark { background: var(--primary); color: var(--white); }
+.btn-dark:hover { background: var(--primary-light); transform: translateY(-1px); box-shadow: var(--shadow-md); }
+.btn-outline { background: transparent; color: var(--primary); border: 2px solid var(--primary); }
+.btn-outline:hover { background: var(--primary); color: var(--white); }
+
+/* Banner */
+.ea-banner {
+  background: linear-gradient(90deg, var(--secondary) 0%, #A0724A 100%);
+  color: var(--white); text-align: center;
+  padding: 10px 24px; font-size: 14px; font-weight: 500;
+  position: fixed; top: 0; left: 0; right: 0; z-index: 110;
+}
+.ea-banner a { color: var(--accent-light); text-decoration: underline; font-weight: 600; }
+
+/* Nav */
+nav {
+  position: fixed; top: 38px; left: 0; right: 0; z-index: 100;
+  background: rgba(27, 67, 50, 0.95); backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+.nav-inner {
+  max-width: 1200px; margin: 0 auto; padding: 0 24px;
+  display: flex; align-items: center; justify-content: space-between; height: 72px;
+}
+.nav-logo { display: flex; align-items: center; gap: 10px; }
+.nav-logo svg { width: 32px; height: 32px; }
+.nav-logo span { font-family: 'Fraunces', serif; font-size: 22px; color: var(--white); }
+.nav-links { display: flex; align-items: center; gap: 32px; }
+.nav-links a { color: rgba(255,255,255,0.75); font-size: 15px; font-weight: 500; transition: color 0.2s; }
+.nav-links a:hover { color: var(--white); }
+.nav-cta { padding: 10px 24px; font-size: 14px; }
+
+/* Page hero */
+.page-hero {
+  background: linear-gradient(175deg, #2D6A4F 0%, #1B4332 60%, #1B4332 100%);
+  color: var(--white); padding: 180px 0 80px; text-align: center;
+}
+.page-hero h1 { margin-bottom: 16px; }
+.page-hero p { font-size: 18px; color: rgba(255,255,255,0.75); max-width: 600px; margin: 0 auto; line-height: 1.7; }
+
+/* Contact content */
+.contact-section { padding: 80px 0; }
+.contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; max-width: 960px; margin: 0 auto; }
+@media (max-width: 768px) { .contact-grid { grid-template-columns: 1fr; gap: 48px; } .nav-links { display: none; } }
+
+.contact-form h2 { margin-bottom: 8px; }
+.contact-form > p { color: var(--text-muted); font-size: 15px; margin-bottom: 32px; line-height: 1.6; }
+
+.form-group { margin-bottom: 20px; }
+.form-group label {
+  display: block; font-size: 14px; font-weight: 600; margin-bottom: 6px; color: var(--text);
+}
+.form-group input, .form-group select, .form-group textarea {
+  width: 100%; padding: 12px 16px; border: 1px solid var(--border); border-radius: 8px;
+  font-family: 'DM Sans', sans-serif; font-size: 15px; color: var(--text);
+  background: var(--white); transition: border-color 0.2s;
+  height: auto; min-height: 48px;
+}
+.form-group select {
+  appearance: none; -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%236C757D' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat; background-position: right 14px center; background-size: 16px;
+  padding-right: 40px; cursor: pointer;
+}
+.form-group input:focus, .form-group select:focus, .form-group textarea:focus {
+  outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px rgba(82,183,136,0.15);
+}
+.form-group textarea { resize: vertical; min-height: 100px; }
+.form-group .hint { font-size: 12px; color: var(--text-muted); margin-top: 4px; }
+
+.form-consent { font-size: 13px; color: var(--text-muted); margin-top: 20px; margin-bottom: 24px; line-height: 1.6; }
+.form-consent a { color: var(--accent); text-decoration: underline; }
+
+.form-submit { width: 100%; justify-content: center; font-size: 16px; padding: 16px 32px; }
+
+/* Book a call panel */
+.book-call { padding: 36px; background: var(--white); border: 1px solid var(--border); border-radius: var(--radius-lg); }
+.book-call h2 { margin-bottom: 8px; }
+.book-call > p { color: var(--text-muted); font-size: 15px; margin-bottom: 24px; line-height: 1.6; }
+.book-call-placeholder {
+  background: var(--bg); border: 2px dashed var(--border); border-radius: var(--radius);
+  padding: 48px 24px; text-align: center; margin-bottom: 24px;
+}
+.book-call-placeholder p { font-size: 14px; color: var(--text-muted); }
+.book-call-email { margin-top: 24px; padding-top: 24px; border-top: 1px solid var(--border); }
+.book-call-email p { font-size: 15px; color: var(--text-muted); margin-bottom: 12px; line-height: 1.6; }
+.book-call-email a { color: var(--primary); font-weight: 600; text-decoration: underline; }
+
+/* What to expect */
+.expect-list { list-style: none; margin-top: 24px; }
+.expect-list li {
+  display: flex; gap: 12px; padding: 12px 0; font-size: 14px; color: var(--text);
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+.expect-list li:last-child { border-bottom: none; }
+.expect-icon {
+  width: 32px; height: 32px; border-radius: 8px; flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center;
+  background: rgba(82,183,136,0.1); font-size: 14px;
+}
+
+/* Footer */
+footer {
+  background: var(--primary); color: var(--white); padding: 64px 0 32px;
+}
+.footer-grid {
+  display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 48px; margin-bottom: 48px;
+}
+.footer-brand p { font-size: 14px; color: rgba(255,255,255,0.55); line-height: 1.6; margin-top: 16px; max-width: 320px; }
+.footer-col h4 {
+  font-size: 13px; font-weight: 600; letter-spacing: 1px;
+  text-transform: uppercase; color: rgba(255,255,255,0.4); margin-bottom: 20px;
+}
+.footer-col a {
+  display: block; font-size: 15px; color: rgba(255,255,255,0.7); padding: 6px 0; transition: color 0.2s;
+}
+.footer-col a:hover { color: var(--accent); }
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,0.08);
+  padding-top: 24px; display: flex; justify-content: space-between; align-items: center;
+}
+.footer-bottom p { font-size: 13px; color: rgba(255,255,255,0.35); }
+.footer-bottom a { color: rgba(255,255,255,0.35); font-size: 13px; }
+.footer-bottom a:hover { color: rgba(255,255,255,0.6); }
+.footer-links { display: flex; gap: 24px; }
+@media (max-width: 768px) {
+  .footer-grid { grid-template-columns: 1fr; }
+  .footer-bottom { flex-direction: column; gap: 12px; text-align: center; }
+}
+</style>
+</head>
+<body>
+
+<!-- Banner -->
+<div class="ea-banner">
+  We're onboarding founding partners now. <a href="contact.html#book">Book an introductory call</a> to get early access.
+</div>
+
+<!-- Nav -->
+<nav>
+  <div class="nav-inner">
+    <a href="alder-crm-landing.html" class="nav-logo">
+      <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M16 30 L16 14" stroke="#52B788" stroke-width="2.2" stroke-linecap="round"/>
+        <path d="M16 22 Q12 19 8 20" stroke="#52B788" stroke-width="1.4" stroke-linecap="round"/>
+        <path d="M16 22 Q20 19 24 20" stroke="#52B788" stroke-width="1.4" stroke-linecap="round"/>
+        <path d="M16 18 Q11 15 7 15" stroke="#52B788" stroke-width="1.2" stroke-linecap="round"/>
+        <path d="M16 18 Q21 15 25 15" stroke="#52B788" stroke-width="1.2" stroke-linecap="round"/>
+        <path d="M16 14 Q13 11 10 10" stroke="#52B788" stroke-width="1" stroke-linecap="round"/>
+        <path d="M16 14 Q19 11 22 10" stroke="#52B788" stroke-width="1" stroke-linecap="round"/>
+        <ellipse cx="8" cy="18" rx="4" ry="3.2" fill="#52B788" opacity="0.25"/>
+        <ellipse cx="24" cy="18" rx="4" ry="3.2" fill="#52B788" opacity="0.25"/>
+        <ellipse cx="7" cy="13" rx="4.5" ry="3.5" fill="#52B788" opacity="0.3"/>
+        <ellipse cx="25" cy="13" rx="4.5" ry="3.5" fill="#52B788" opacity="0.3"/>
+        <ellipse cx="10" cy="8" rx="4" ry="3.2" fill="#52B788" opacity="0.35"/>
+        <ellipse cx="22" cy="8" rx="4" ry="3.2" fill="#52B788" opacity="0.35"/>
+        <ellipse cx="16" cy="5" rx="5" ry="3.5" fill="#52B788" opacity="0.4"/>
+        <path d="M16 30 Q13 31 10 30.5" stroke="#52B788" stroke-width="1" stroke-linecap="round"/>
+        <path d="M16 30 Q19 31 22 30.5" stroke="#52B788" stroke-width="1" stroke-linecap="round"/>
+      </svg>
+      <span>Alder CRM</span>
+    </a>
+    <div class="nav-links">
+      <a href="alder-crm-landing.html#features">Features</a>
+      <a href="alder-crm-landing.html#pricing">Pricing</a>
+      <a href="alder-crm-landing.html#migration">Migration</a>
+      <a href="alder-crm-landing.html#about">About</a>
+      <a class="btn btn-primary nav-cta" href="contact.html">Register Interest</a>
+    </div>
+  </div>
+</nav>
+
+<!-- Page hero -->
+<section class="page-hero">
+  <div class="container">
+    <h1>Let's talk about your charity</h1>
+    <p>Register your interest or book an introductory call. We'll learn about your needs and show you how Alder can help.</p>
+  </div>
+</section>
+
+<!-- Contact content -->
+<section class="contact-section">
+  <div class="container">
+    <div class="contact-grid">
+
+      <!-- Register interest form -->
+      <div class="contact-form">
+        <h2>Register your interest</h2>
+        <p>Tell us a bit about your charity and we'll be in touch within one working day.</p>
+
+        <form action="mailto:hello@aldercrm.com" method="POST" enctype="text/plain">
+          <div class="form-group">
+            <label for="name">Your name</label>
+            <input type="text" id="name" name="name" required placeholder="e.g. Sarah Edwards">
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" required placeholder="e.g. sarah@yourcharity.org.uk">
+          </div>
+
+          <div class="form-group">
+            <label for="charity">Charity name</label>
+            <input type="text" id="charity" name="charity" required placeholder="e.g. Southside Community Trust">
+          </div>
+
+          <div class="form-group">
+            <label for="role">Your role</label>
+            <input type="text" id="role" name="role" placeholder="e.g. CEO, Fundraising Manager, Trustee">
+          </div>
+
+          <div class="form-group">
+            <label for="charity-type">Type of organisation</label>
+            <select id="charity-type" name="charity_type">
+              <option value="">Select one...</option>
+              <option value="registered-charity">Registered charity</option>
+              <option value="cio">Charitable Incorporated Organisation (CIO)</option>
+              <option value="company-charity">Charitable company (limited by guarantee)</option>
+              <option value="community-interest">Community Interest Company (CIC)</option>
+              <option value="unincorporated">Unincorporated association</option>
+              <option value="trust">Trust</option>
+              <option value="church">Church or place of worship</option>
+              <option value="sports-club">Community Amateur Sports Club (CASC)</option>
+              <option value="social-enterprise">Social enterprise</option>
+              <option value="not-sure">Not sure</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="current-crm">What are you currently using?</label>
+            <select id="current-crm" name="current_crm">
+              <option value="nothing" selected>Nothing / spreadsheets</option>
+              <option value="access">Access Charity CRM</option>
+              <option value="beacon">Beacon CRM</option>
+              <option value="charitylog">Charitylog</option>
+              <option value="civicrm">CiviCRM</option>
+              <option value="donorfy">Donorfy</option>
+              <option value="raisers-edge">Raiser's Edge / NXT</option>
+              <option value="salesforce">Salesforce</option>
+              <option value="thankq">ThankQ</option>
+              <option value="other">Something else</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Anything else you'd like us to know?</label>
+            <textarea id="message" name="message" placeholder="e.g. what's working, what isn't, what you're looking for..."></textarea>
+            <div class="hint">Optional — but it helps us prepare for the conversation.</div>
+          </div>
+
+          <div class="form-consent">
+            By submitting this form, you're giving us permission to contact you about Alder CRM. We won't share your details with anyone else. See our <a href="privacy.html">privacy policy</a> for details.
+          </div>
+
+          <button type="submit" class="btn btn-dark form-submit">Register Your Interest</button>
+        </form>
+      </div>
+
+      <!-- Book a call -->
+      <div>
+        <div class="book-call" id="book">
+          <h2>Book an introductory call</h2>
+          <p>Prefer to talk? Book a 20-minute call and we'll walk you through Alder CRM, answer your questions, and learn about your charity.</p>
+
+          <div class="book-call-placeholder">
+            <p><strong>Calendar booking coming soon</strong></p>
+            <p>We're setting up online booking — in the meantime, email us and we'll find a time that works.</p>
+          </div>
+
+          <div class="book-call-email">
+            <p>Email us directly:</p>
+            <a href="mailto:hello@aldercrm.com">hello@aldercrm.com</a>
+          </div>
+        </div>
+
+        <div style="margin-top: 32px; padding: 28px; background: var(--white); border: 1px solid var(--border); border-radius: var(--radius-lg);">
+          <h3 style="font-family: 'DM Sans', sans-serif; font-weight: 600; font-size: 16px; margin-bottom: 4px;">What to expect</h3>
+          <p style="font-size: 14px; color: var(--text-muted); margin-bottom: 0;">No hard sell. Just a conversation.</p>
+          <ul class="expect-list">
+            <li>
+              <div class="expect-icon">1</div>
+              <div>
+                <strong>We'll learn about your charity</strong><br>
+                <span style="color:var(--text-muted);">What you do, who you serve, how you're set up</span>
+              </div>
+            </li>
+            <li>
+              <div class="expect-icon">2</div>
+              <div>
+                <strong>We'll ask about your current tools</strong><br>
+                <span style="color:var(--text-muted);">What's working, what isn't, what you wish you had</span>
+              </div>
+            </li>
+            <li>
+              <div class="expect-icon">3</div>
+              <div>
+                <strong>We'll show you Alder CRM</strong><br>
+                <span style="color:var(--text-muted);">A walkthrough tailored to your needs — not a generic demo</span>
+              </div>
+            </li>
+            <li>
+              <div class="expect-icon">4</div>
+              <div>
+                <strong>We'll agree next steps together</strong><br>
+                <span style="color:var(--text-muted);">If it's a good fit, we'll get you set up. If not, no pressure.</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="alder-crm-landing.html" class="nav-logo" style="display:inline-flex;">
+          <svg width="28" height="28" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16 30 L16 14" stroke="#52B788" stroke-width="2.2" stroke-linecap="round"/>
+            <path d="M16 22 Q12 19 8 20" stroke="#52B788" stroke-width="1.4" stroke-linecap="round"/>
+            <path d="M16 22 Q20 19 24 20" stroke="#52B788" stroke-width="1.4" stroke-linecap="round"/>
+            <path d="M16 18 Q11 15 7 15" stroke="#52B788" stroke-width="1.2" stroke-linecap="round"/>
+            <path d="M16 18 Q21 15 25 15" stroke="#52B788" stroke-width="1.2" stroke-linecap="round"/>
+            <path d="M16 14 Q13 11 10 10" stroke="#52B788" stroke-width="1" stroke-linecap="round"/>
+            <path d="M16 14 Q19 11 22 10" stroke="#52B788" stroke-width="1" stroke-linecap="round"/>
+            <ellipse cx="8" cy="18" rx="4" ry="3.2" fill="#52B788" opacity="0.25"/>
+            <ellipse cx="24" cy="18" rx="4" ry="3.2" fill="#52B788" opacity="0.25"/>
+            <ellipse cx="7" cy="13" rx="4.5" ry="3.5" fill="#52B788" opacity="0.3"/>
+            <ellipse cx="25" cy="13" rx="4.5" ry="3.5" fill="#52B788" opacity="0.3"/>
+            <ellipse cx="10" cy="8" rx="4" ry="3.2" fill="#52B788" opacity="0.35"/>
+            <ellipse cx="22" cy="8" rx="4" ry="3.2" fill="#52B788" opacity="0.35"/>
+            <ellipse cx="16" cy="5" rx="5" ry="3.5" fill="#52B788" opacity="0.4"/>
+            <path d="M16 30 Q13 31 10 30.5" stroke="#52B788" stroke-width="1" stroke-linecap="round"/>
+            <path d="M16 30 Q19 31 22 30.5" stroke="#52B788" stroke-width="1" stroke-linecap="round"/>
+          </svg>
+          <span style="font-family:'Fraunces',serif; font-size:20px; color:white;">Alder CRM</span>
+        </a>
+        <p>Like the alder tree, we help charities put down deep roots and nourish the communities around them.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Product</h4>
+        <a href="alder-crm-landing.html#features">Features</a>
+        <a href="alder-crm-landing.html#pricing">Pricing</a>
+        <a href="alder-crm-landing.html#migration">Migration</a>
+        <a href="contact.html">Register Interest</a>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="alder-crm-landing.html#about">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="mailto:hello@aldercrm.com">hello@aldercrm.com</a>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <a href="privacy.html">Privacy policy</a>
+        <a href="terms.html">Terms of service</a>
+        <a href="cookies.html">Cookie policy</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Alder CRM. A product of Otaina Limited, registered in England and Wales. Built with care in the UK.</p>
+      <div class="footer-links">
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="cookies.html">Cookies</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

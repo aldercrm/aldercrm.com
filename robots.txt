@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Block internal screen mockups
+Disallow: /alder-crm-screens/
+Disallow: /alder-crm-palettes.html
+Disallow: /alder-crm-screens.html
+
+Sitemap: https://aldercrm.com/sitemap.xml

@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terms of Service — Alder CRM</title>
+  <meta name="description" content="Terms of service for the Alder CRM website. Operated by Otaina Limited, registered in England and Wales.">
+  <link rel="canonical" href="https://aldercrm.com/terms.html">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicon.png" type="image/png" sizes="32x32">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://aldercrm.com/terms.html">
+  <meta property="og:title" content="Terms of Service — Alder CRM">
+  <meta property="og:description" content="Terms of service for the Alder CRM website. Operated by Otaina Limited, registered in England and Wales.">
+  <meta property="og:image" content="https://aldercrm.com/og-image.png">
+  <meta property="og:locale" content="en_GB">
+  <meta property="og:site_name" content="Alder CRM">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Terms of Service — Alder CRM">
+  <meta name="twitter:description" content="Terms of service for the Alder CRM website. Operated by Otaina Limited, registered in England and Wales.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Fraunces:wght@600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --primary: #1B4332;
+      --accent: #52B788;
+      --text: #212529;
+      --text-muted: #6C757D;
+      --bg: #F8F9FA;
+      --white: #FFFFFF;
+      --border: #DEE2E6;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      color: var(--text);
+      background-color: var(--bg);
+      line-height: 1.6;
+    }
+
+    /* Early access banner */
+    .banner {
+      background: linear-gradient(90deg, #8B5E3C, #A0724A);
+      color: var(--white);
+      text-align: center;
+      padding: 12px 20px;
+      font-size: 14px;
+      font-weight: 500;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 110;
+    }
+
+    .banner a {
+      color: var(--white);
+      text-decoration: underline;
+      margin-left: 4px;
+    }
+
+    /* Navigation */
+    nav {
+      background-color: var(--white);
+      border-bottom: 1px solid var(--border);
+      position: fixed;
+      top: 44px;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    }
+
+    .nav-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 64px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      color: var(--primary);
+      font-family: 'Fraunces', serif;
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    .logo svg {
+      width: 32px;
+      height: 32px;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      list-style: none;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: var(--text);
+      font-size: 14px;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+
+    .nav-links a:hover {
+      color: var(--accent);
+    }
+
+    .nav-button {
+      background-color: var(--primary);
+      color: var(--white);
+      padding: 10px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 600;
+      transition: background-color 0.2s;
+      border: none;
+      cursor: pointer;
+    }
+
+    .nav-button:hover {
+      background-color: var(--accent);
+    }
+
+    /* Main content */
+    main {
+      margin-top: 108px;
+      padding-bottom: 60px;
+    }
+
+    /* Hero section */
+    .hero {
+      background: linear-gradient(135deg, var(--primary), var(--accent));
+      color: var(--white);
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-family: 'Fraunces', serif;
+      font-size: 48px;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+
+    .hero p {
+      font-size: 16px;
+      opacity: 0.95;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    /* Content section */
+    .content-wrapper {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 60px 20px;
+      background-color: var(--white);
+    }
+
+    h2 {
+      font-family: 'Fraunces', serif;
+      font-size: 28px;
+      font-weight: 700;
+      color: var(--primary);
+      margin-top: 40px;
+      margin-bottom: 16px;
+      padding-top: 20px;
+      border-top: 2px solid var(--border);
+    }
+
+    h2:first-child {
+      border-top: none;
+      margin-top: 0;
+      padding-top: 0;
+    }
+
+    p, li {
+      font-size: 15px;
+      line-height: 1.8;
+      margin-bottom: 16px;
+      color: var(--text);
+    }
+
+    ul, ol {
+      margin-left: 20px;
+      margin-bottom: 16px;
+    }
+
+    li {
+      margin-bottom: 12px;
+    }
+
+    strong {
+      font-weight: 600;
+      color: var(--primary);
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    a:hover {
+      color: var(--primary);
+      text-decoration: underline;
+    }
+
+    .updated {
+      color: var(--text-muted);
+      font-size: 14px;
+      font-weight: 500;
+      margin-bottom: 32px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    /* Footer */
+    footer {
+      background-color: var(--primary);
+      color: var(--white);
+      margin-top: 60px;
+    }
+
+    .footer-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 50px 20px 30px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 40px;
+      margin-bottom: 30px;
+    }
+
+    .footer-section h3 {
+      font-family: 'Fraunces', serif;
+      font-size: 16px;
+      font-weight: 700;
+      margin-bottom: 16px;
+      color: var(--accent);
+    }
+
+    .footer-section ul {
+      list-style: none;
+      margin-left: 0;
+    }
+
+    .footer-section a {
+      display: block;
+      color: var(--white);
+      text-decoration: none;
+      font-size: 14px;
+      margin-bottom: 12px;
+      opacity: 0.9;
+      transition: opacity 0.2s;
+    }
+
+    .footer-section a:hover {
+      opacity: 1;
+      color: var(--accent);
+      text-decoration: underline;
+    }
+
+    .footer-bottom {
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      padding-top: 24px;
+      text-align: center;
+      font-size: 13px;
+      opacity: 0.8;
+    }
+
+    .footer-bottom p {
+      margin: 0;
+      color: var(--white);
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .nav-links {
+        display: none;
+      }
+
+      .banner {
+        font-size: 13px;
+        padding: 10px 15px;
+      }
+
+      .hero h1 {
+        font-size: 32px;
+      }
+
+      .hero p {
+        font-size: 15px;
+      }
+
+      h2 {
+        font-size: 22px;
+      }
+
+      .footer-content {
+        grid-template-columns: 1fr;
+        gap: 24px;
+      }
+
+      .content-wrapper {
+        padding: 40px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Early access banner -->
+  <div class="banner">
+    Alder CRM is coming soon. <a href="contact.html">Register your interest</a>
+  </div>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="nav-container">
+      <a href="alder-crm-landing.html" class="logo">
+        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <!-- Trunk -->
+          <path d="M16 30 L16 14" stroke="#52B788" stroke-width="2.2" stroke-linecap="round"/>
+          <!-- Left branch -->
+          <path d="M16 18 Q10 16 8 12" stroke="#52B788" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+          <!-- Right branch -->
+          <path d="M16 20 Q22 18 24 13" stroke="#52B788" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+          <!-- Left leaves -->
+          <ellipse cx="6" cy="10" rx="2.2" ry="3" fill="#52B788" opacity="0.8" transform="rotate(-35 6 10)"/>
+          <ellipse cx="7" cy="8" rx="2" ry="2.8" fill="#52B788" opacity="0.9" transform="rotate(-20 7 8)"/>
+          <ellipse cx="9" cy="7" rx="1.8" ry="2.5" fill="#52B788" opacity="0.85" transform="rotate(10 9 7)"/>
+          <!-- Right leaves -->
+          <ellipse cx="26" cy="11" rx="2.2" ry="3" fill="#52B788" opacity="0.8" transform="rotate(35 26 11)"/>
+          <ellipse cx="25" cy="9" rx="2" ry="2.8" fill="#52B788" opacity="0.9" transform="rotate(20 25 9)"/>
+          <ellipse cx="23" cy="8" rx="1.8" ry="2.5" fill="#52B788" opacity="0.85" transform="rotate(-10 23 8)"/>
+          <!-- Roots -->
+          <path d="M14 30 Q12 31 11 32" stroke="#52B788" stroke-width="1.4" fill="none" stroke-linecap="round" opacity="0.7"/>
+          <path d="M18 30 Q20 31 21 32" stroke="#52B788" stroke-width="1.4" fill="none" stroke-linecap="round" opacity="0.7"/>
+        </svg>
+        Alder CRM
+      </a>
+      <ul class="nav-links">
+        <li><a href="alder-crm-landing.html#features">Features</a></li>
+        <li><a href="alder-crm-landing.html#pricing">Pricing</a></li>
+        <li><a href="alder-crm-landing.html#migration">Migration</a></li>
+        <li><a href="alder-crm-landing.html#about">About</a></li>
+        <li><a href="contact.html" class="nav-button">Register Interest</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main content -->
+  <main>
+    <div class="hero">
+      <h1>Terms of Service</h1>
+      <p>How you can use the Alder CRM website</p>
+    </div>
+
+    <div class="content-wrapper">
+      <p class="updated">Last updated: March 2026</p>
+
+      <h2>1. About these terms</h2>
+      <p>These Terms of Service govern your use of the Alder CRM website, located at aldercrm.com. The website is currently in pre-launch and is provided for information purposes only. You cannot create an account or purchase the product yet.</p>
+      <p>By accessing and using this website, you accept and agree to be bound by these terms and our Privacy Policy. If you do not agree, please do not use the website.</p>
+
+      <h2>2. About us</h2>
+      <p>Alder CRM is a product of Otaina Limited, a company registered in England and Wales (company number 15903181). Registered office: Ground Floor, Kings House, 101-135 Kings Road, Brentwood, Essex, CM14 4DR.</p>
+      <p>You can contact us at <a href="mailto:hello@aldercrm.com" style="color:var(--accent); text-decoration:underline;">hello@aldercrm.com</a> with any questions about these terms.</p>
+
+      <h2>3. Use of this website</h2>
+      <p>You may use this website to:</p>
+      <ul>
+        <li>Learn about Alder CRM's features, pricing, and approach</li>
+        <li>Register your interest in the product</li>
+        <li>Review our Privacy Policy and other legal information</li>
+      </ul>
+      <p>You must not:</p>
+      <ul>
+        <li>Use the website for any unlawful purpose or in breach of any applicable law</li>
+        <li>Attempt to gain unauthorised access to any part of the website</li>
+        <li>Scrape, crawl, or automatically access the website without permission</li>
+        <li>Transmit any harmful, malicious, or disruptive content</li>
+        <li>Interfere with or disrupt the website's operation or security</li>
+        <li>Use the website to harass, threaten, or abuse anyone</li>
+      </ul>
+      <p>We reserve the right to suspend or revoke your access to the website if you breach these terms.</p>
+
+      <h2>4. Intellectual property</h2>
+      <p>All content on this website, including text, graphics, logos, images, videos, and software, is the property of Otaina Limited or is used with permission. This includes the Alder CRM name, branding, and design.</p>
+      <p>You may view and print content for your personal, non-commercial use only. You must not reproduce, distribute, modify, or transmit any content without our written consent.</p>
+
+      <h2>5. Information about pricing and features</h2>
+      <p>The pricing, features, and timelines shown on this website are <strong>indicative only</strong> and are subject to change before Alder CRM's official launch.</p>
+      <p>We make reasonable efforts to keep information on this website accurate and up to date, but we do not guarantee that all information is accurate, complete, or current. We may update pricing, features, and other information at any time without notice.</p>
+      <p>Any commitment to specific pricing, features, or availability will only be made when you enter into a formal agreement with us after the product launches.</p>
+
+      <h2>6. Third-party links and resources</h2>
+      <p>This website may contain links to third-party websites. We are not responsible for the content, accuracy, or availability of external websites, nor do we endorse them.</p>
+      <p>Your use of third-party websites is governed by their own terms and conditions. We recommend reviewing their policies before sharing any personal information.</p>
+
+      <h2>7. Limitation of liability</h2>
+      <p>To the fullest extent permitted by law, Otaina Limited and its directors, officers, employees, and agents shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of this website, including loss of profits, revenue, data, or goodwill.</p>
+      <p>This includes loss arising from:</p>
+      <ul>
+        <li>Website unavailability or interruption of service</li>
+        <li>Errors, omissions, or inaccuracies in website content</li>
+        <li>Unauthorised access or use of the website</li>
+        <li>Viruses or malicious code transmitted through the website</li>
+      </ul>
+      <p>Some jurisdictions do not allow the limitation of certain liabilities, so some of these limitations may not apply to you.</p>
+
+      <h2>8. Disclaimer of warranties</h2>
+      <p>This website is provided on an "as-is" and "as-available" basis. We do not make any express or implied warranties about the website, its content, or its suitability for any particular purpose.</p>
+      <p>To the extent permitted by law, we disclaim all warranties, including warranties of merchantability, fitness for a particular purpose, and non-infringement.</p>
+
+      <h2>9. Changes to these terms</h2>
+      <p>We may update these terms at any time to reflect changes to the website, applicable law, or other circumstances. We will post the updated terms on this page and update the "Last updated" date.</p>
+      <p>Your continued use of the website after we post changes constitutes your acceptance of the updated terms. If you do not agree to any changes, please stop using the website.</p>
+
+      <h2>10. Governing law and jurisdiction</h2>
+      <p>These terms are governed by the laws of England and Wales, without regard to its conflict of law principles. Any legal proceeding or dispute shall be exclusively subject to the courts of England and Wales.</p>
+      <p>Both you and Otaina Limited consent to the exclusive jurisdiction and venue of the courts of England and Wales.</p>
+
+      <h2>11. Severability</h2>
+      <p>If any provision of these terms is found to be invalid or unenforceable by a court of competent jurisdiction, that provision shall be modified to the minimum extent necessary to make it valid, or removed. The remaining provisions shall continue to apply in full force and effect.</p>
+
+      <h2>12. Entire agreement</h2>
+      <p>These terms, together with our Privacy Policy, constitute the entire agreement between you and Otaina Limited regarding your use of this website and supersede all prior agreements, understandings, and representations.</p>
+
+      <h2>13. Contact us</h2>
+      <p>If you have any questions or concerns about these terms, please contact us at:</p>
+      <ul>
+        <li><strong>Email:</strong> <a href="mailto:hello@aldercrm.com" style="color:var(--accent); text-decoration:underline;">hello@aldercrm.com</a></li>
+        <li><strong>Website:</strong> aldercrm.com</li>
+      </ul>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Product</h3>
+        <ul>
+          <li><a href="alder-crm-landing.html#features">Features</a></li>
+          <li><a href="alder-crm-landing.html#pricing">Pricing</a></li>
+          <li><a href="alder-crm-landing.html#migration">Migration</a></li>
+          <li><a href="contact.html">Register Interest</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Company</h3>
+        <ul>
+          <li><a href="alder-crm-landing.html#about">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Legal</h3>
+        <ul>
+          <li><a href="terms.html">Terms of Service</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="cookies.html">Cookie Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Otaina Limited. All rights reserved. Alder CRM is a product of Otaina Limited, registered in England and Wales.</p>
+    </div>
+  </footer>
+</body>
+</html>

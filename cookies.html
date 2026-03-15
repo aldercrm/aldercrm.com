@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cookie Policy — Alder CRM</title>
+  <meta name="description" content="Cookie policy for the Alder CRM website. Currently no cookies are set. Operated by Otaina Limited.">
+  <link rel="canonical" href="https://aldercrm.com/cookies.html">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicon.png" type="image/png" sizes="32x32">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://aldercrm.com/cookies.html">
+  <meta property="og:title" content="Cookie Policy — Alder CRM">
+  <meta property="og:description" content="Cookie policy for the Alder CRM website. Currently no cookies are set. Operated by Otaina Limited.">
+  <meta property="og:image" content="https://aldercrm.com/og-image.png">
+  <meta property="og:locale" content="en_GB">
+  <meta property="og:site_name" content="Alder CRM">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Cookie Policy — Alder CRM">
+  <meta name="twitter:description" content="Cookie policy for the Alder CRM website. Currently no cookies are set. Operated by Otaina Limited.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..72,100..700;1,9..72,100..700&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --primary: #1B4332;
+      --accent: #52B788;
+      --text: #212529;
+      --text-muted: #6C757D;
+      --bg: #F8F9FA;
+      --white: #FFFFFF;
+      --border: #DEE2E6;
+    }
+
+    html, body {
+      height: 100%;
+    }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      color: var(--text);
+      background-color: var(--white);
+      line-height: 1.6;
+      font-size: 16px;
+    }
+
+    /* Early Access Banner */
+    .banner {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background: linear-gradient(90deg, #8B5E3C, #A0724A);
+      color: var(--white);
+      text-align: center;
+      padding: 0.75rem;
+      font-size: 0.875rem;
+      font-weight: 500;
+      z-index: 110;
+    }
+
+    /* Navigation */
+    nav {
+      position: fixed;
+      top: 2.75rem;
+      left: 0;
+      right: 0;
+      background-color: var(--white);
+      border-bottom: 1px solid var(--border);
+      z-index: 100;
+      padding: 1rem 2rem;
+    }
+
+    .nav-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .nav-logo {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      text-decoration: none;
+      color: var(--primary);
+      font-family: 'Fraunces', serif;
+      font-weight: 700;
+      font-size: 1.25rem;
+      letter-spacing: -0.5px;
+    }
+
+    .nav-logo svg {
+      width: 28px;
+      height: 28px;
+    }
+
+    .nav-menu {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      list-style: none;
+    }
+
+    .nav-menu a {
+      color: var(--text);
+      text-decoration: none;
+      font-size: 0.95rem;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+
+    .nav-menu a:hover {
+      color: var(--accent);
+    }
+
+    .nav-cta {
+      background-color: var(--primary);
+      color: var(--white);
+      padding: 0.5rem 1rem;
+      border-radius: 0.375rem;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.9rem;
+      transition: background-color 0.2s;
+    }
+
+    .nav-cta:hover {
+      background-color: #0d2818;
+    }
+
+    /* Main content */
+    main {
+      margin-top: calc(2.75rem + 1rem + 28px + 1rem);
+      padding-top: 0;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: linear-gradient(135deg, var(--primary), #0d2818);
+      color: var(--white);
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+
+    .hero-container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      font-family: 'Fraunces', serif;
+      font-size: 3rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      letter-spacing: -1px;
+    }
+
+    .hero-subtitle {
+      font-size: 1.1rem;
+      opacity: 0.9;
+      font-weight: 400;
+    }
+
+    /* Content Section */
+    .content {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 3rem 2rem;
+    }
+
+    .content h2 {
+      font-family: 'Fraunces', serif;
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      color: var(--primary);
+      letter-spacing: -0.5px;
+    }
+
+    .content h2:first-child {
+      margin-top: 0;
+    }
+
+    .content p {
+      margin-bottom: 1rem;
+      color: var(--text);
+      line-height: 1.8;
+    }
+
+    .content ul {
+      margin-left: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .content li {
+      margin-bottom: 0.5rem;
+      line-height: 1.8;
+    }
+
+    .content a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .content a:hover {
+      text-decoration: underline;
+    }
+
+    .policy-note {
+      background-color: var(--bg);
+      border-left: 4px solid var(--accent);
+      padding: 1rem;
+      margin: 1.5rem 0;
+      border-radius: 0.25rem;
+    }
+
+    .policy-note p {
+      margin-bottom: 0;
+      font-size: 0.95rem;
+    }
+
+    .contact-section {
+      background-color: var(--bg);
+      padding: 1.5rem;
+      border-radius: 0.5rem;
+      margin-top: 2rem;
+    }
+
+    .contact-section p {
+      margin-bottom: 0.5rem;
+    }
+
+    /* Footer */
+    footer {
+      background-color: var(--primary);
+      color: var(--white);
+      padding: 3rem 2rem 2rem;
+      margin-top: 3rem;
+    }
+
+    .footer-container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .footer-section h3 {
+      font-family: 'Fraunces', serif;
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      letter-spacing: -0.25px;
+    }
+
+    .footer-section ul {
+      list-style: none;
+    }
+
+    .footer-section li {
+      margin-bottom: 0.75rem;
+    }
+
+    .footer-section a {
+      color: rgba(255, 255, 255, 0.85);
+      text-decoration: none;
+      font-size: 0.95rem;
+      transition: color 0.2s;
+    }
+
+    .footer-section a:hover {
+      color: var(--accent);
+    }
+
+    .footer-divider {
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      padding-top: 2rem;
+      margin-top: 2rem;
+    }
+
+    .footer-bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+      font-size: 0.85rem;
+      color: rgba(255, 255, 255, 0.75);
+    }
+
+    .footer-bottom a {
+      color: rgba(255, 255, 255, 0.85);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .footer-bottom a:hover {
+      color: var(--accent);
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .nav-menu {
+        gap: 1rem;
+      }
+
+      .nav-menu a {
+        font-size: 0.85rem;
+      }
+
+      .hero h1 {
+        font-size: 2rem;
+      }
+
+      .footer-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Early Access Banner -->
+  <div class="banner">
+    Early access: Alder CRM launches Spring 2026. Join the waitlist.
+  </div>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="nav-container">
+      <a href="alder-crm-landing.html" class="nav-logo">
+        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <!-- Trunk -->
+          <line x1="16" y1="30" x2="16" y2="14" stroke="#52B788" stroke-width="2.2" stroke-linecap="round"/>
+
+          <!-- Upper Left Branch -->
+          <line x1="16" y1="15" x2="10" y2="8" stroke="#52B788" stroke-width="1.8" stroke-linecap="round"/>
+          <ellipse cx="8" cy="5" rx="2.5" ry="1.5" fill="#52B788" opacity="0.9"/>
+
+          <!-- Upper Right Branch -->
+          <line x1="16" y1="15" x2="22" y2="8" stroke="#52B788" stroke-width="1.8" stroke-linecap="round"/>
+          <ellipse cx="24" cy="5" rx="2.5" ry="1.5" fill="#52B788" opacity="0.9"/>
+
+          <!-- Middle Left Branch -->
+          <line x1="16" y1="20" x2="9" y2="16" stroke="#52B788" stroke-width="1.5" stroke-linecap="round"/>
+          <ellipse cx="6" cy="14" rx="2" ry="1.2" fill="#52B788" opacity="0.85"/>
+
+          <!-- Middle Right Branch -->
+          <line x1="16" y1="20" x2="23" y2="16" stroke="#52B788" stroke-width="1.5" stroke-linecap="round"/>
+          <ellipse cx="26" cy="14" rx="2" ry="1.2" fill="#52B788" opacity="0.85"/>
+
+          <!-- Left Root -->
+          <path d="M16 30 Q12 32 10 31" stroke="#52B788" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+
+          <!-- Right Root -->
+          <path d="M16 30 Q20 32 22 31" stroke="#52B788" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+        </svg>
+        Alder CRM
+      </a>
+      <ul class="nav-menu">
+        <li><a href="alder-crm-landing.html#features">Features</a></li>
+        <li><a href="alder-crm-landing.html#pricing">Pricing</a></li>
+        <li><a href="alder-crm-landing.html#migration">Migration</a></li>
+        <li><a href="alder-crm-landing.html#about">About</a></li>
+        <li><a href="contact.html" class="nav-cta">Register Interest</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-container">
+        <h1>Cookie Policy</h1>
+        <p class="hero-subtitle">Last updated: March 2026</p>
+      </div>
+    </section>
+
+    <!-- Content -->
+    <section class="content">
+      <h2>What are cookies?</h2>
+      <p>
+        Cookies are small text files stored on your device when you visit a website. They help websites remember your preferences, recognise you when you return, and provide a better user experience. Cookies may be set by the website itself or by third-party services (such as analytics providers or font providers).
+      </p>
+
+      <h2>Cookies we use</h2>
+      <p>
+        <strong>The honest answer: we don't currently use any cookies ourselves.</strong>
+      </p>
+      <p>
+        Alder CRM's website is a static HTML site without authentication, analytics, or tracking systems. We do not set cookies, use cookies to track behaviour, or store data about you in cookies.
+      </p>
+
+      <h2>Third-party connections</h2>
+      <p>
+        Although we don't set cookies, we do load fonts from Google Fonts. When your browser fetches these fonts, it makes a request to Google's servers. Google's privacy policy covers their use of any data collected in that request.
+      </p>
+      <p>
+        If you prefer not to load external fonts, you can block requests to fonts.googleapis.com in your browser settings, though this may affect the website's appearance.
+      </p>
+
+      <h2>Analytics</h2>
+      <p>
+        We do not currently use any analytics or tracking software.
+      </p>
+      <div class="policy-note">
+        <p>
+          <strong>Future changes:</strong> We may add privacy-focused analytics (such as Plausible) in the future to understand how visitors use our site. If we do, we will update this policy and clearly explain what data is collected. Any analytics tool we choose will be selected for its commitment to privacy and compliance with UK GDPR and UK PECR.
+        </p>
+      </div>
+
+      <h2>Managing cookies in your browser</h2>
+      <p>
+        Most browsers allow you to control how cookies are handled. You can typically:
+      </p>
+      <ul>
+        <li>View cookies stored on your device</li>
+        <li>Delete all cookies or cookies from a specific site</li>
+        <li>Block cookies from specific domains</li>
+        <li>Enable "Do Not Track" settings</li>
+      </ul>
+      <p>
+        For guidance, search for cookie settings in your browser's help documentation. Note that blocking all cookies may affect functionality on some websites.
+      </p>
+
+      <h2>Changes to this policy</h2>
+      <p>
+        We may update this cookie policy from time to time to reflect changes in our technology, legal requirements, or practices. If we make material changes, we will update the "Last updated" date at the top of this page.
+      </p>
+
+      <h2>Get in touch</h2>
+      <div class="contact-section">
+        <p>
+          If you have questions about this cookie policy or how we handle data, please contact us:
+        </p>
+        <p>
+          <strong>Email:</strong> <a href="mailto:hello@aldercrm.com">hello@aldercrm.com</a>
+        </p>
+        <p>
+          <strong>Alder CRM</strong><br>
+          A product of Otaina Limited<br>
+          Email: <a href="mailto:hello@aldercrm.com" style="color:var(--accent); text-decoration:underline;">hello@aldercrm.com</a><br>
+          Registered office: Ground Floor, Kings House, 101-135 Kings Road, Brentwood, Essex, CM14 4DR<br>
+          Company registration: England and Wales, No. 15903181
+        </p>
+      </div>
+
+      <p style="margin-top: 2rem; font-size: 0.9rem; color: var(--text-muted);">
+        This policy complies with the UK Privacy and Electronic Communications Regulations (PECR) and the UK General Data Protection Regulation (UK GDPR).
+      </p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-grid">
+        <div class="footer-section">
+          <h3>Product</h3>
+          <ul>
+            <li><a href="alder-crm-landing.html#features">Features</a></li>
+            <li><a href="alder-crm-landing.html#pricing">Pricing</a></li>
+            <li><a href="alder-crm-landing.html#migration">Migration</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Company</h3>
+          <ul>
+            <li><a href="alder-crm-landing.html#about">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="mailto:hello@aldercrm.com">hello@aldercrm.com</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Legal</h3>
+          <ul>
+            <li><a href="terms.html">Terms of Service</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="cookies.html">Cookie Policy</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-divider">
+        <div class="footer-bottom">
+          <p>&copy; 2026 Otaina Limited. All rights reserved.</p>
+          <p>Alder CRM is a product of <strong>Otaina Limited</strong>, registered in England and Wales.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
